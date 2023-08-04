@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -7,8 +7,6 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace TowerRoyale
-{
     public class Loading : MonoBehaviour
     {
         [SerializeField] private GameObject loadPanel;
@@ -101,4 +99,3 @@ namespace TowerRoyale
             }
         }
     }
-}

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -21,6 +21,7 @@ public class Uagent : Unit
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        agent.enabled = true; // NavMeshAgent'i etkinleştirin
     }
 
     private void Update()

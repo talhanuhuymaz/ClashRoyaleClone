@@ -12,8 +12,8 @@ public class Spawner : MonoBehaviour
         InvokeRepeating("Spawn", 0, Random.Range(5f, 15f));
     }
 
-    
-   private void Spawn()
+
+    private void Spawn()
     {
         Instantiate(enemy, spawnPos.position, Quaternion.identity);
     }
